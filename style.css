@@ -1,0 +1,197 @@
+body {
+    background-color: #EEEEEE;
+    color: #000000;
+    font-family: Lato, sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EEEEEE;
+    width: 100%;
+    top: 0;
+    padding: 10px;
+  }
+  
+  #header-img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    margin-left: 1em;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  nav ul li {
+    float: left;
+    padding: 1em 3em;
+    margin-right: 1em;
+  }
+  
+  #started {
+    text-align: center;
+  }
+  
+  h2 {
+    padding-top: 2em;
+  }
+  
+  input[type=email] {
+    width: 100%;
+    max-width: 275px;
+    padding: 5px;
+  }
+  
+  #submit {
+    background-color: #F1C40F;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 1em;
+    max-width: 150px;
+    width: 100%;  
+    height: 30px;
+    border: 0;
+    border-radius: 2px;
+    padding-left: 20px;
+  }
+  
+  #features {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2em 12em;
+  }
+  
+  #icon-1, #icon-2, #icon-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  i {
+    height: 2em;
+    width: 3em;
+    color: darkorange;
+    margin-top: 1em;
+  }
+  
+  #how-it-works {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  #video {
+     width: 45%;
+     height: 25vw;
+  }
+  
+  #pricing {
+    display: flex;
+    flex-direction: row;
+    margin: 5em 10em;
+    line-height: 1.6;
+  }
+  
+  ol {
+    list-style-type: none;
+  }
+  
+  .top1, .top2, .top3 {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0px;
+    width: 100%;
+    font-weight: 700;
+  }
+  
+  #tenor, #bass, #valve {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+  
+  #submit-bot {
+    border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+    padding: 0 20px;
+    height: 40px;
+    font-size: 1em;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  section h2{
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  section ol {
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer {
+    background-color: #ddd;
+    padding: 20px;
+    width:100%;
+    max-width: 75vw; 
+  }
+  
+  footer ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer ul li {
+    padding: 0 10px;
+  }
+  
+  footer span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+  }
+  
+  @media (max-width: 800px) {
+    #pricing {
+      flex-direction: column;
+      width: 100%;
+      margin: 5em 15em;
+    }
+    header {
+      display: flex;
+      flex-direction: column;
+    }
+    #started h2 {
+    padding-top: 10vw;
+    }
+  }
